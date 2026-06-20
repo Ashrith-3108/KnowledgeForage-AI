@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-banner.png" width="100%" alt="KnowledgeForge AI">
+  <img src="assets/hero Banner.png" width="100%" alt="KnowledgeForge AI">
 </p>
 
 <h1 align="center">KnowledgeForge AI</h1>
