@@ -78,9 +78,14 @@ KnowledgeForge AI solves this problem through:
 # Product Demo
 
 <p align="center">
-  <video src="assets/demo.mp4" controls width="90%"></video>
+  <a href="https://youtu.be/8qpm6ZLCjfE">
+    <img src="assets/hero Banner.png" width="100%">
+  </a>
 </p>
 
+<p align="center">
+  🎥 Click the banner above to watch the complete demo
+</p>
 ---
 
 # Architecture
