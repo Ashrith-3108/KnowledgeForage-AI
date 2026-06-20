@@ -86,7 +86,7 @@ KnowledgeForge AI solves this problem through:
 # Architecture
 
 <p align="center">
-  <img src="assets/architecture-dark.png" width="100%">
+  <img src="assets/Architecture.png" width="100%">
 </p>
 
 KnowledgeForge AI follows a layered architecture consisting of:
