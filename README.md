@@ -1,7 +1,7 @@
-# KnowledgeForge AI
+# 🚀 KnowledgeForge AI
 
 <p align="center">
-  <img src="assets/hero Banner.png" width="100%" alt="KnowledgeForge AI">
+  <img src="assets/hero-banner.png" width="100%" alt="KnowledgeForge AI">
 </p>
 
 <h1 align="center">KnowledgeForge AI</h1>
@@ -16,230 +16,218 @@ Enterprise Retrieval-Augmented Generation (RAG) Platform
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-blue?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge\&logo=amazonaws)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-blue?style=for-the-badge)
+![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge\&logo=amazonaws)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
 
 <p align="center">
-🚀 Live Demo: https://knowledgeforge-ai-en-h0ed.bolt.host/
-</p>
-
-<p align="center">
-🎥 Demo Video: https://youtu.be/8qpm6ZLCjfE
+Turn enterprise documents into an intelligent AI-powered knowledge system using semantic search, vector retrieval, and Large Language Models.
 </p>
 
 ---
 
-# Overview
+## 🌐 Live Demo
 
-KnowledgeForge AI is an intelligent Retrieval-Augmented Generation (RAG) platform that transforms enterprise documents into a searchable AI knowledge system.
+### Try the Application
 
-Users can upload PDFs, index content using semantic embeddings, and retrieve accurate answers through natural language queries. Instead of relying on keyword matching, KnowledgeForge AI leverages vector search and transformer-based language models to understand context and generate grounded responses.
-
-The platform demonstrates a complete enterprise-grade RAG pipeline including:
-
-* Document Ingestion
-* Text Extraction
-* Embedding Generation
-* Vector Indexing
-* Semantic Retrieval
-* Context Construction
-* AI Response Generation
-
----
-
-# Problem Statement
-
-Organizations store critical information across:
-
-* Technical Documentation
-* Standard Operating Procedures
-* Research Papers
-* Product Manuals
-* Internal Knowledge Bases
-* Compliance Documents
-
-Traditional search systems fail because they rely on exact keyword matches.
-
-KnowledgeForge AI solves this by combining semantic retrieval with transformer-based language models to provide context-aware answers grounded in enterprise documents.
-
----
-
-# Live Product
-
-### Production Demo
+🔗 **Live Website**
 
 https://knowledgeforge-ai-en-h0ed.bolt.host/
 
-### Product Walkthrough
+### Video Walkthrough
 
-https://youtu.be/8qpm6ZLCjfE
-
----
-
-# Product Demo GIF
-
-<p align="center">
-  <img src="assets/demo.gif" width="100%">
-</p>
-
-### Demo Flow
-
-1. Upload PDF Documents
-2. Generate Semantic Embeddings
-3. Build FAISS Vector Index
-4. Ask Natural Language Questions
-5. Retrieve Relevant Context
-6. Generate Grounded Responses
+🎥 https://youtu.be/8qpm6ZLCjfE
 
 ---
 
-# Features
+# 📖 About The Project
 
-✅ Retrieval-Augmented Generation (RAG)
+KnowledgeForge AI is a Retrieval-Augmented Generation (RAG) platform that enables organizations to search, retrieve, and interact with knowledge stored inside documents using natural language.
 
-✅ Semantic Search
+Instead of relying on traditional keyword-based search, the platform understands context and meaning through semantic embeddings and vector similarity search.
 
-✅ PDF Knowledge Base Creation
+Users can upload PDF documents, build a searchable knowledge base, and receive AI-generated answers grounded in the uploaded content.
 
-✅ FAISS Vector Search
+---
 
-✅ Sentence Transformer Embeddings
+# ✨ Core Capabilities
 
-✅ Context-Aware Question Answering
+### Intelligent Document Processing
 
-✅ AI-Powered Response Generation
+* PDF Upload & Parsing
+* Automatic Text Extraction
+* Smart Document Chunking
+* Knowledge Base Creation
 
-✅ Authentication & Authorization
+### Semantic Search Engine
+
+* Transformer-Based Embeddings
+* Vector Similarity Search
+* FAISS Indexing
+* Context Retrieval Pipeline
+
+### AI Answer Generation
+
+* Retrieval-Augmented Generation (RAG)
+* Context-Aware Responses
+* Hallucination Reduction
+* Source-Grounded Answers
+
+### Enterprise Features
+
+* User Authentication
+* Knowledge Management
+* Secure Document Access
+* Scalable Retrieval Architecture
+
+---
+
+# 🎯 Problem Statement
+
+Organizations generate large amounts of unstructured information:
+
+* Technical Documentation
+* Research Papers
+* Internal Wikis
+* Product Manuals
+* SOP Documents
+* Compliance Policies
+
+Finding relevant information inside these documents is often slow and inefficient.
+
+KnowledgeForge AI solves this challenge by combining:
+
+✅ Semantic Understanding
+
+✅ Vector Search
+
+✅ Context Retrieval
+
+✅ Large Language Models
 
 ✅ Enterprise Knowledge Discovery
 
-✅ Scalable Retrieval Pipeline
-
-✅ Modern Web Interface
-
 ---
 
-# Architecture
+# 🏗 System Architecture
 
 <p align="center">
-  <img src="assets/Architecture.png" width="100%">
+  <img src="assets/Architecture.png" width="85%">
 </p>
 
-### RAG Pipeline
+The platform follows a modular Retrieval-Augmented Generation architecture:
 
-1. Document Ingestion
-2. Text Extraction
-3. Chunk Generation
-4. Embedding Creation
-5. FAISS Indexing
-6. Semantic Retrieval
-7. Context Construction
-8. LLM Inference
-9. Response Generation
+### 1. Document Ingestion Layer
+
+Handles document uploads and preprocessing.
+
+### 2. Embedding Layer
+
+Generates dense vector representations using transformer models.
+
+### 3. Vector Database Layer
+
+Stores embeddings inside a FAISS index for efficient retrieval.
+
+### 4. Retrieval Layer
+
+Finds the most relevant document chunks using similarity search.
+
+### 5. Context Builder
+
+Constructs prompts from retrieved knowledge.
+
+### 6. LLM Layer
+
+Generates human-readable responses grounded in retrieved context.
 
 ---
 
-# System Flow
+# 🔄 Workflow
+
+<p align="center">
+  <img src="assets/workflow.png" width="45%">
+</p>
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-A[Upload PDF] --> B[Text Extraction]
-B --> C[Chunking]
-C --> D[Embeddings]
-D --> E[FAISS Index]
+A[Upload PDF]
+--> B[Extract Text]
 
-Q[User Query] --> F[Semantic Search]
+B --> C[Chunk Documents]
 
-E --> F
+C --> D[Generate Embeddings]
 
-F --> G[Context Retrieval]
-G --> H[LLM Generation]
-H --> I[Answer Delivery]
+D --> E[Create FAISS Index]
+
+F[User Query]
+--> G[Semantic Retrieval]
+
+E --> G
+
+G --> H[Build Context]
+
+H --> I[Generate Response]
+
+I --> J[Answer Delivered]
 ```
 
 ---
 
-# Performance Metrics
+# 🛠 Technology Stack
 
-| Metric                  | Value                 |
-| ----------------------- | --------------------- |
-| Embedding Model         | Sentence Transformers |
-| Vector Database         | FAISS                 |
-| Search Method           | Semantic Similarity   |
-| Average Retrieval Time  | < 500 ms              |
-| Supported Document Type | PDF                   |
-| Retrieval Pipeline      | Vector Search         |
-| Response Generation     | Transformer-based     |
-| Scalability             | Thousands of Chunks   |
-
----
-
-# Technology Stack
-
-| Category       | Technology            |
-| -------------- | --------------------- |
-| Frontend       | HTML, CSS, JavaScript |
-| Backend        | Django                |
-| Language       | Python                |
-| Deep Learning  | PyTorch               |
-| NLP Framework  | Transformers          |
-| Embeddings     | Sentence Transformers |
-| Vector Search  | FAISS                 |
-| Database       | MySQL                 |
-| Cloud          | AWS (Boto3)           |
-| Authentication | Django Auth           |
+| Category        | Technology            |
+| --------------- | --------------------- |
+| Frontend        | HTML, CSS             |
+| Backend         | Django                |
+| Language        | Python                |
+| NLP             | Transformers          |
+| Embeddings      | Sentence Transformers |
+| Vector Search   | FAISS                 |
+| Deep Learning   | PyTorch               |
+| Database        | MySQL                 |
+| Cloud Services  | AWS (Boto3)           |
+| Data Processing | NumPy                 |
 
 ---
 
-# Deployment Architecture
+# 📂 Project Structure
 
-<p align="center">
-  <img src="assets/Architecture.png" width="100%">
-</p>
-
-### Deployment Flow
-
-```text
-User
- ↓
-Frontend
- ↓
-Django Backend
- ↓
-PDF Processing
- ↓
-Embedding Generation
- ↓
-FAISS Vector Store
- ↓
-Retriever
- ↓
-Language Model
- ↓
-Generated Response
+```bash
+KnowledgeForge-AI
+│
+├── Rag/
+├── RagApp/
+├── assets/
+├── screenshots/
+├── docs/
+│
+├── manage.py
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# Screenshots
+# 📸 Application Screenshots
 
-## Home Page
+## Landing Page
 
 ![Home](screenshots/01.png)
 
 ---
 
-## Home Page 2
+## Dashboard
 
-![Home](screenshots/02.png)
+![Dashboard](screenshots/02.png)
 
 ---
 
-## Login Page
+## Authentication
 
 ![Login](screenshots/Login.png)
 
@@ -251,178 +239,126 @@ Generated Response
 
 ---
 
-## Query Search
+## Semantic Search
 
-![Query](screenshots/04.png)
+![Search](screenshots/04.png)
 
 ---
 
 ## Retrieval Results
 
-![Retrieval](screenshots/05.png)
+![Results](screenshots/05.png)
 
 ---
 
-## Query Input
+## Query Processing
 
-![Query Input](screenshots/06.png)
+![Query](screenshots/06.png)
 
 ---
 
-## Generated Answer
+## AI Generated Response
 
 ![Output](screenshots/Output.png)
 
 ---
 
-# API Documentation
-
-### Document Upload API
-
-```http
-POST /upload
-```
-
-Uploads and processes PDF documents.
-
----
-
-### Search API
-
-```http
-POST /search
-```
-
-Performs semantic retrieval.
-
----
-
-### Generate API
-
-```http
-POST /generate
-```
-
-Generates grounded responses using retrieved context.
-
----
-
-### API Documentation Preview
-
-<p align="center">
-  <img src="assets/api-docs.png" width="100%">
-</p>
-
----
-
-# Project Structure
-
-```text
-KnowledgeForge-AI/
-
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── manage.py
-
-├── Rag/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-
-├── RagApp/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── admin.py
-│   ├── templates/
-│   └── static/
-
-├── assets/
-│   ├── hero-banner.png
-│   ├── Architecture.png
-│   ├── deployment-architecture.png
-│   ├── api-docs.png
-│   └── demo.gif
-
-├── screenshots/
-
-└── docs/
-```
-
----
-
-# Installation
+# ⚙️ Installation
 
 ```bash
+# Clone repository
+
 git clone https://github.com/Ashrith-3108/KnowledgeForge-AI.git
+
+# Move into project
 
 cd KnowledgeForge-AI
 
+# Create virtual environment
+
 python -m venv venv
 
+# Activate environment
+
 # Windows
+
 venv\Scripts\activate
+
+# Install dependencies
 
 pip install -r requirements.txt
 
+# Run migrations
+
 python manage.py migrate
+
+# Start server
 
 python manage.py runserver
 ```
 
+Application:
+
+```bash
+http://127.0.0.1:8000
+```
+
 ---
 
-# Future Enhancements
+# 📈 Future Enhancements
 
-### Short Term
+### Upcoming Features
 
-* Multi-file Upload
-* Response Citations
-* Improved Ranking
-* Search History
-
-### Mid Term
-
-* REST APIs
-* Docker Support
-* Multi-Tenant Workspaces
+* Multi-User Workspaces
 * Role-Based Access Control
-
-### Long Term
-
+* REST APIs
+* Docker Deployment
+* Kubernetes Support
+* CI/CD Pipelines
+* Monitoring & Observability
 * Multi-Agent RAG
-* Hybrid Search
 * Knowledge Graph Integration
-* Real-Time Ingestion
-* Enterprise Analytics Dashboard
-* Kubernetes Deployment
+* Real-Time Streaming Ingestion
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 ## Ashrith Vavillapally
 
 AI Engineer • Data Engineer • Software Developer
 
-GitHub:
+### GitHub
+
 https://github.com/Ashrith-3108
 
-LinkedIn:
+### LinkedIn
+
 https://www.linkedin.com/in/vavillapally-ashrith-9823482a1/
 
-Email:
+### Email
+
 [vavillapallyashrith@gmail.com](mailto:vavillapallyashrith@gmail.com)
 
 ---
 
-# License
+# ⭐ Project Highlights
 
-This project is licensed under the MIT License.
+* Built an end-to-end Retrieval-Augmented Generation system
+* Implemented semantic document search using FAISS
+* Integrated transformer-based embeddings
+* Developed scalable knowledge retrieval workflows
+* Created AI-powered document question answering platform
+* Designed enterprise-ready architecture for future expansion
+
+---
+
+# 📜 License
+
+Licensed under the MIT License.
 
 ---
 
 <p align="center">
-Built with ❤️ using Django, FAISS, Transformers and Retrieval-Augmented Generation.
+Built with ❤️ using Django, FAISS, Transformers and Retrieval-Augmented Generation
 </p>
