@@ -222,7 +222,7 @@ KnowledgeForge-AI/
 
 ## Semantic Retrieval Accuracy & Download File
 
-![Retrieval](05.png)
+![Retrieval](screenshots/05.png)
 
 ---
 
