@@ -194,12 +194,12 @@ KnowledgeForge-AI/
 
 ## Home Page
 
-![Home](screenshots/New-User-Signup.png)
+![Home](screenshots/01.png)
 
 ---
 ## Home Page-2
 
-![Home](screenshots/New-User-Signup-Screen.png)
+![Home](screenshots/02.png)
 
 ---
 ## Login Page
@@ -210,25 +210,25 @@ KnowledgeForge-AI/
 
 ## Document Upload
 
-![Login](screenshots/Upload-Document.png)
+![Login](screenshots/03.png)
 
 ---
 
 ## Query Search
 
-![Upload](screenshots/Query-Search-&-Retrieve-Document.png)
+![Upload](screenshots/04.png)
 
 ---
 
 ## Semantic Retrieval Accuracy & Download File
 
-![Retrieval](screenshots/Retrieval-Accuracy-&-Download-File.png)
+![Retrieval](05.png)
 
 ---
 
 ## Query Entering
 
-![Generation](screenshots/Question-providing.png)
+![Generation](screenshots/06.png)
 
 ---
 ## Output Generation
