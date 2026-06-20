@@ -1,7 +1,7 @@
 # KnowledgeForge AI
 
 <p align="center">
-  <img src="assets/hero-banner.png" width="100%" alt="KnowledgeForge AI">
+  <img src="assets/hero Banner.png" width="100%" alt="KnowledgeForge AI">
 </p>
 
 <h1 align="center">KnowledgeForge AI</h1>
@@ -198,7 +198,7 @@ H --> I[Answer Delivery]
 # Deployment Architecture
 
 <p align="center">
-  <img src="assets/deployment-architecture.png" width="100%">
+  <img src="assets/Architecture.png" width="100%">
 </p>
 
 ### Deployment Flow
