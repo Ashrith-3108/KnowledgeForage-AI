@@ -104,7 +104,7 @@ KnowledgeForge AI follows a layered architecture consisting of:
 # Workflow
 
 <p align="center">
-  <img src="assets/workflow-dark.png" width="100%">
+  <img src="assets/workflow.png" width="100%">
 </p>
 
 The workflow follows:
@@ -194,40 +194,48 @@ KnowledgeForge-AI/
 
 ## Home Page
 
-![Home](screenshots/01-home.png)
+![Home](screenshots/New-User-Signup.png)
 
 ---
+## Home Page-2
 
-## User Registration
-
-![Signup](screenshots/02-signup.png)
+![Home](screenshots/New-User-Signup-Screen.png)
 
 ---
+## Login Page
 
-## User Authentication
-
-![Login](screenshots/03-login.png)
+![Signup](screenshots/Login.png)
 
 ---
 
 ## Document Upload
 
-![Upload](screenshots/04-upload.png)
+![Login](screenshots/Upload-Document.png)
 
 ---
 
-## Semantic Retrieval
+## Query Search
 
-![Retrieval](screenshots/05-retrieval.png)
-
----
-
-## Answer Generation
-
-![Generation](screenshots/06-generation.png)
+![Upload](screenshots/Query-Search-&-Retrieve-Document.png)
 
 ---
 
+## Semantic Retrieval Accuracy & Download File
+
+![Retrieval](screenshots/Retrieval-Accuracy-&-Download-File.png)
+
+---
+
+## Query Entering
+
+![Generation](screenshots/Question-providing.png)
+
+---
+## Output Generation
+
+![Generation](screenshots/Output.png)
+
+---
 # Installation
 
 ```bash
