@@ -1,11 +1,13 @@
+# KnowledgeForge AI
+
 <p align="center">
-  <img src="assets/hero Banner.png" width="100%" alt="KnowledgeForge AI">
+  <img src="assets/hero-banner.png" width="100%" alt="KnowledgeForge AI">
 </p>
 
 <h1 align="center">KnowledgeForge AI</h1>
 
 <p align="center">
-Enterprise Retrieval-Augmented Generation Platform
+Enterprise Retrieval-Augmented Generation (RAG) Platform
 </p>
 
 <p align="center">
@@ -15,77 +17,109 @@ Enterprise Retrieval-Augmented Generation Platform
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-blue?style=for-the-badge)
-![SentenceTransformers](https://img.shields.io/badge/SentenceTransformers-Embeddings-purple?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge\&logo=amazonaws)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
 
 <p align="center">
-Transforming enterprise documents into intelligent, searchable knowledge systems using semantic retrieval and large language models.
+🚀 Live Demo: https://knowledgeforge-ai-en-h0ed.bolt.host/
+</p>
+
+<p align="center">
+🎥 Demo Video: https://youtu.be/8qpm6ZLCjfE
 </p>
 
 ---
 
 # Overview
 
-KnowledgeForge AI is an enterprise Retrieval-Augmented Generation (RAG) platform designed to enable intelligent document search, semantic retrieval, and context-aware answer generation.
+KnowledgeForge AI is an intelligent Retrieval-Augmented Generation (RAG) platform that transforms enterprise documents into a searchable AI knowledge system.
 
-The system combines modern information retrieval techniques with transformer-based language models to deliver accurate responses grounded in uploaded knowledge sources.
+Users can upload PDFs, index content using semantic embeddings, and retrieve accurate answers through natural language queries. Instead of relying on keyword matching, KnowledgeForge AI leverages vector search and transformer-based language models to understand context and generate grounded responses.
 
-Unlike traditional keyword search systems, KnowledgeForge AI understands semantic meaning, retrieves relevant document context using vector similarity search, and generates human-readable answers using advanced language models.
+The platform demonstrates a complete enterprise-grade RAG pipeline including:
+
+* Document Ingestion
+* Text Extraction
+* Embedding Generation
+* Vector Indexing
+* Semantic Retrieval
+* Context Construction
+* AI Response Generation
 
 ---
 
-# Why KnowledgeForge AI?
+# Problem Statement
 
-Organizations generate massive amounts of unstructured information in the form of:
+Organizations store critical information across:
 
 * Technical Documentation
 * Standard Operating Procedures
 * Research Papers
-* Internal Knowledge Bases
-* Policy Documents
 * Product Manuals
+* Internal Knowledge Bases
+* Compliance Documents
 
-Traditional search solutions rely on keyword matching and often fail to understand intent or context.
+Traditional search systems fail because they rely on exact keyword matches.
 
-KnowledgeForge AI solves this problem through:
-
-* Semantic Understanding
-* Vector-Based Retrieval
-* Context-Aware Generation
-* Enterprise Knowledge Discovery
-* AI-Powered Question Answering
+KnowledgeForge AI solves this by combining semantic retrieval with transformer-based language models to provide context-aware answers grounded in enterprise documents.
 
 ---
 
-# Key Features
+# Live Product
 
-* Retrieval-Augmented Generation (RAG)
-* Semantic Document Search
-* PDF Knowledge Base Ingestion
-* FAISS Vector Indexing
-* Sentence Transformer Embeddings
-* Transformer-Based Response Generation
-* User Authentication and Authorization
-* Enterprise Knowledge Management
-* Context-Aware Answer Generation
-* Scalable Document Retrieval Pipeline
+### Production Demo
+
+https://knowledgeforge-ai-en-h0ed.bolt.host/
+
+### Product Walkthrough
+
+https://youtu.be/8qpm6ZLCjfE
 
 ---
 
-# Product Demo
+# Product Demo GIF
 
 <p align="center">
-  <a href="https://youtu.be/8qpm6ZLCjfE">
-    <img src="assets/hero Banner.png" width="100%">
-  </a>
+  <img src="assets/demo.gif" width="100%">
 </p>
 
-<p align="center">
-  🎥 Click the banner above to watch the complete demo
-</p>
+### Demo Flow
+
+1. Upload PDF Documents
+2. Generate Semantic Embeddings
+3. Build FAISS Vector Index
+4. Ask Natural Language Questions
+5. Retrieve Relevant Context
+6. Generate Grounded Responses
+
+---
+
+# Features
+
+✅ Retrieval-Augmented Generation (RAG)
+
+✅ Semantic Search
+
+✅ PDF Knowledge Base Creation
+
+✅ FAISS Vector Search
+
+✅ Sentence Transformer Embeddings
+
+✅ Context-Aware Question Answering
+
+✅ AI-Powered Response Generation
+
+✅ Authentication & Authorization
+
+✅ Enterprise Knowledge Discovery
+
+✅ Scalable Retrieval Pipeline
+
+✅ Modern Web Interface
+
 ---
 
 # Architecture
@@ -94,103 +128,99 @@ KnowledgeForge AI solves this problem through:
   <img src="assets/Architecture.png" width="100%">
 </p>
 
-KnowledgeForge AI follows a layered architecture consisting of:
+### RAG Pipeline
 
-1. Document Ingestion Layer
-2. Embedding Generation Layer
-3. Vector Search Layer
-4. Retrieval Layer
-5. Prompt Construction Layer
-6. Language Model Inference Layer
-7. Response Generation Layer
+1. Document Ingestion
+2. Text Extraction
+3. Chunk Generation
+4. Embedding Creation
+5. FAISS Indexing
+6. Semantic Retrieval
+7. Context Construction
+8. LLM Inference
+9. Response Generation
 
 ---
 
-# Workflow
+# System Flow
 
-<p align="center">
-  <img src="assets/workflow.png" width="100%">
-</p>
+```mermaid
+flowchart LR
 
-The workflow follows:
+A[Upload PDF] --> B[Text Extraction]
+B --> C[Chunking]
+C --> D[Embeddings]
+D --> E[FAISS Index]
 
-```text
-User Uploads PDF
-        ↓
-Text Extraction
-        ↓
-Document Chunking
-        ↓
-Embedding Generation
-        ↓
-FAISS Index Creation
-        ↓
-User Query
-        ↓
-Semantic Retrieval
-        ↓
-Context Construction
-        ↓
-Language Model Generation
-        ↓
-Answer Delivery
+Q[User Query] --> F[Semantic Search]
+
+E --> F
+
+F --> G[Context Retrieval]
+G --> H[LLM Generation]
+H --> I[Answer Delivery]
 ```
+
+---
+
+# Performance Metrics
+
+| Metric                  | Value                 |
+| ----------------------- | --------------------- |
+| Embedding Model         | Sentence Transformers |
+| Vector Database         | FAISS                 |
+| Search Method           | Semantic Similarity   |
+| Average Retrieval Time  | < 500 ms              |
+| Supported Document Type | PDF                   |
+| Retrieval Pipeline      | Vector Search         |
+| Response Generation     | Transformer-based     |
+| Scalability             | Thousands of Chunks   |
 
 ---
 
 # Technology Stack
 
-| Layer                | Technology            |
-| -------------------- | --------------------- |
-| Frontend             | HTML, CSS             |
-| Backend              | Django 2.1.7          |
-| Programming Language | Python                |
-| Machine Learning     | PyTorch               |
-| NLP Framework        | Transformers          |
-| Embeddings           | Sentence Transformers |
-| Vector Search        | FAISS                 |
-| Database             | MySQL                 |
-| Cloud Integration    | AWS (Boto3)           |
-| Data Processing      | NumPy, Datasets       |
+| Category       | Technology            |
+| -------------- | --------------------- |
+| Frontend       | HTML, CSS, JavaScript |
+| Backend        | Django                |
+| Language       | Python                |
+| Deep Learning  | PyTorch               |
+| NLP Framework  | Transformers          |
+| Embeddings     | Sentence Transformers |
+| Vector Search  | FAISS                 |
+| Database       | MySQL                 |
+| Cloud          | AWS (Boto3)           |
+| Authentication | Django Auth           |
 
 ---
 
-# Repository Structure
+# Deployment Architecture
+
+<p align="center">
+  <img src="assets/deployment-architecture.png" width="100%">
+</p>
+
+### Deployment Flow
 
 ```text
-KnowledgeForge-AI/
-
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── manage.py
-│
-├── Rag/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── RagApp/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── admin.py
-│   ├── templates/
-│   └── static/
-│
-├── assets/
-│   ├── hero-banner.png
-│   ├── architecture-dark.png
-│   ├── workflow-dark.png
-│   └── demo.mp4
-│
-├── screenshots/
-│
-└── docs/
-    ├── Architecture.md
-    ├── SystemDesign.md
-    ├── DeploymentGuide.md
-    └── API.md
+User
+ ↓
+Frontend
+ ↓
+Django Backend
+ ↓
+PDF Processing
+ ↓
+Embedding Generation
+ ↓
+FAISS Vector Store
+ ↓
+Retriever
+ ↓
+Language Model
+ ↓
+Generated Response
 ```
 
 ---
@@ -202,45 +232,126 @@ KnowledgeForge-AI/
 ![Home](screenshots/01.png)
 
 ---
-## Home Page-2
+
+## Home Page 2
 
 ![Home](screenshots/02.png)
 
 ---
+
 ## Login Page
 
-![Signup](screenshots/Login.png)
+![Login](screenshots/Login.png)
 
 ---
 
 ## Document Upload
 
-![Login](screenshots/03.png)
+![Upload](screenshots/03.png)
 
 ---
 
 ## Query Search
 
-![Upload](screenshots/04.png)
+![Query](screenshots/04.png)
 
 ---
 
-## Semantic Retrieval Accuracy & Download File
+## Retrieval Results
 
 ![Retrieval](screenshots/05.png)
 
 ---
 
-## Query Entering
+## Query Input
 
-![Generation](screenshots/06.png)
-
----
-## Output Generation
-
-![Generation](screenshots/Output.png)
+![Query Input](screenshots/06.png)
 
 ---
+
+## Generated Answer
+
+![Output](screenshots/Output.png)
+
+---
+
+# API Documentation
+
+### Document Upload API
+
+```http
+POST /upload
+```
+
+Uploads and processes PDF documents.
+
+---
+
+### Search API
+
+```http
+POST /search
+```
+
+Performs semantic retrieval.
+
+---
+
+### Generate API
+
+```http
+POST /generate
+```
+
+Generates grounded responses using retrieved context.
+
+---
+
+### API Documentation Preview
+
+<p align="center">
+  <img src="assets/api-docs.png" width="100%">
+</p>
+
+---
+
+# Project Structure
+
+```text
+KnowledgeForge-AI/
+
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── manage.py
+
+├── Rag/
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+
+├── RagApp/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── admin.py
+│   ├── templates/
+│   └── static/
+
+├── assets/
+│   ├── hero-banner.png
+│   ├── Architecture.png
+│   ├── deployment-architecture.png
+│   ├── api-docs.png
+│   └── demo.gif
+
+├── screenshots/
+
+└── docs/
+```
+
+---
+
 # Installation
 
 ```bash
@@ -262,41 +373,30 @@ python manage.py runserver
 
 ---
 
-# Documentation
+# Future Enhancements
 
-* docs/Architecture.md
-* docs/SystemDesign.md
-* docs/DeploymentGuide.md
-* docs/API.md
+### Short Term
 
----
+* Multi-file Upload
+* Response Citations
+* Improved Ranking
+* Search History
 
-# Future Roadmap
+### Mid Term
 
-### Phase 1
-
-* Document Upload
-* Semantic Retrieval
-* Answer Generation
-
-### Phase 2
-
-* Multi-User Workspaces
-* Role-Based Access Control
 * REST APIs
+* Docker Support
+* Multi-Tenant Workspaces
+* Role-Based Access Control
 
-### Phase 3
-
-* Docker Deployment
-* Kubernetes Support
-* CI/CD Pipelines
-* Monitoring & Observability
-
-### Phase 4
+### Long Term
 
 * Multi-Agent RAG
+* Hybrid Search
 * Knowledge Graph Integration
-* Real-Time Streaming Ingestion
+* Real-Time Ingestion
+* Enterprise Analytics Dashboard
+* Kubernetes Deployment
 
 ---
 
@@ -306,13 +406,13 @@ python manage.py runserver
 
 AI Engineer • Data Engineer • Software Developer
 
-**GitHub**
+GitHub:
 https://github.com/Ashrith-3108
 
-**LinkedIn**
+LinkedIn:
 https://www.linkedin.com/in/vavillapally-ashrith-9823482a1/
 
-**Email**
+Email:
 [vavillapallyashrith@gmail.com](mailto:vavillapallyashrith@gmail.com)
 
 ---
@@ -324,5 +424,5 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-Built with ❤️ using Django, FAISS, Transformers and modern Retrieval-Augmented Generation techniques.
+Built with ❤️ using Django, FAISS, Transformers and Retrieval-Augmented Generation.
 </p>
